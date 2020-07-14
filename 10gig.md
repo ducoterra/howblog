@@ -255,3 +255,5 @@ Why is it not 10Gbit??? What happened.
 Well my friends, this is what I like to call a server bottleneck. I have a theory that my 2014 freenas hardware might be struggling to send data fast enough to my 2020 kubernetes hardware. I have a "Vogzone for Intel x540-T2" on the way to test further As for now, 10 gigabit is expensive, annoying to configure, and seems to only work on more recent hardware.
 
 10/10 I highly recommend.
+
+**EDIT:** [Part 2 is out!](10gig2.md)
