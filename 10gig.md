@@ -4,7 +4,7 @@ I'm the kind of person who isn't happy until they've milked every last drop of p
 
 But that doesn't mean I haven't learned some interesting things. For example: I've uncovered the 2 rules of buying expensive components:
 
-1. The more expensive the thing, the less compatible it is with other things.
+1. The more expensive the component, the less compatible it is with other components.
 1. The more reputable the brand, the harder it is to find anywhere reputable.
 
 As an enthusiast my job is to keep these 2 rules in check with my patented shopping techniques:
@@ -161,7 +161,7 @@ Oh yeah, now we're getting somewhere. So our disk speed when writing 2 MB blocks
 
 ## Part 2: How the fuck do you find a good network card?
 
-I went to Microcenter. I didn't do any research ahead of time and I didn't look at reviews. I picked out the nicest looking 10g network hard they had - an ASUS 10G NET ADP PCI-E RJ-45, pictured below:
+I went to Microcenter. I didn't do any research ahead of time and I didn't look at reviews. I picked out the nicest looking 10g network card they had - an ASUS 10G NET ADP PCI-E RJ-45, pictured below:
 
 ![isn't it lovely](img/10gig/asus.jpg)
 
@@ -175,7 +175,7 @@ I paid 109.99 (not including tax) which put it at "still reasonable" for 10g net
 
 Hmm, same issue. It's detected as a PCI device but not showing up as a network interface. Well maybe I can enable unsupported hardware? Maybe I can compile the Windows 7 driver using FreeBSD's bizarre driver compiler that supports Windows XP drivers and turns them into FreeBSD drivers? Maybe I can return this stupid card to Microcenter?
 
-So I returned the card to Microcenter almost defeated. But then, out of the corner of my eye I noticed something: an intel x520-DA2 SFP+ network card on sale for $130. There was only one available and it was a test product so they wouldn't be getting any more in. Should I risk it? I don't have any [SFP+ hardware](https://en.wikipedia.org/wiki/Small_form-factor_pluggable_transceiver) and it's notoriously expensive but come on, I have to get this to work!
+So I returned the stupid card to Microcenter almost defeated. But then, out of the corner of my eye I noticed something: an intel x520-DA2 SFP+ network card on sale for $130. There was only one available and it was a test product so they wouldn't be getting any more in. Should I risk it? I don't have any [SFP+ hardware](https://en.wikipedia.org/wiki/Small_form-factor_pluggable_transceiver) and it's notoriously expensive but come on, I have to get this to work!
 
 With the intel card in hand I left the store head held high. This will work.
 
@@ -255,4 +255,3 @@ Why is it not 10Gbit??? What happened.
 Well my friends, this is what I like to call a server bottleneck. I have a theory that my 2014 freenas hardware might be struggling to send data fast enough to my 2020 kubernetes hardware. I have a "Vogzone for Intel x540-T2" on the way to test further As for now, 10 gigabit is expensive, annoying to configure, and seems to only work on more recent hardware.
 
 10/10 I highly recommend.
-
